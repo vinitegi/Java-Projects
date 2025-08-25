@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cursos/Bootcamp Riachuelo/Aula001/Aula001.iml" filepath="$PROJECT_DIR$/Cursos/Bootcamp Riachuelo/Aula001/Aula001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cursos/Bootcamp Riachuelo/Aula002/Aula002.iml" filepath="$PROJECT_DIR$/Cursos/Bootcamp Riachuelo/Aula002/Aula002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Faculdade/Faculdade.iml" filepath="$PROJECT_DIR$/Faculdade/Faculdade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Projects.iml" filepath="$PROJECT_DIR$/.idea/Java-Projects.iml" />
+    </modules>
+  </component>
+</project>

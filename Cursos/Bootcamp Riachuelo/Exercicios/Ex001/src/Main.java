@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Digite o ano de nascimento: ");
         var ano = scanner.nextInt();
 
-        System.out.printf("Olá, %s. Você possui %s anos de idade.", name, 2025 - ano);
+        System.out.printf("Olá, %s. Você possui %s anos de idade!", name, 2025 - ano);
 
         //Ex002
         System.out.println("Digite o lado do quadrado: ");

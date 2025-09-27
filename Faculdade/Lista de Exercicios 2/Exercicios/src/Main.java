@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
 public class Main {
+    public static boolean ehPrimo(int num){
+        if (num < 2) return false;
+        for (int i = 2; i < Math.sqrt(num); i++) {
+            if (num % i == 0) return false;
+        }
+        return true;
+    }
     public static void main(String[] args) {
         var sc = new Scanner(System.in);
 
@@ -115,5 +122,50 @@ public class Main {
             }
             System.out.println();
         }
+
+        //Numeros primos
+        System.out.print("Digite n para ver os n primeiros números primos: ");
+        int n = sc.nextInt();
+
+        int count = 0, num = 2;
+        while(count < n){
+            if (ehPrimo(num)){
+                System.out.println(num + " ");
+                count++;
+            }
+            num++;
+        }
+        System.out.println();
+
+        //N primeiros numeros Fibonacci
+        System.out.print("Digite n para ver os n primeiros números de Fibonacci: ");
+        n = sc.nextInt();
+
+        int z = 0, x = 1, fib;
+        for (int i = 0; i < n; i++) {
+            System.out.print(a + " ");
+            fib = z + x;
+            z = x;
+            x = fib;
+        }
+        System.out.println();
+
+        //Losango
+        System.out.print("Digite a altura do losango: ");
+        int h = sc.nextInt();
+
+        // parte superior
+        for (int i = 1; i <= h; i++) {
+            for (int j = i; j < h; j++) System.out.print(" ");
+            for (int j = 1; j <= (2 * i - 1); j++) System.out.print("*");
+            System.out.println();
+        }
+        // parte inferior
+        for (int i = h - 1; i >= 1; i--) {
+            for (int j = h; j > i; j--) System.out.print(" ");
+            for (int j = 1; j <= (2 * i - 1); j++) System.out.print("*");
+            System.out.println();
+        }
+
     }
 }

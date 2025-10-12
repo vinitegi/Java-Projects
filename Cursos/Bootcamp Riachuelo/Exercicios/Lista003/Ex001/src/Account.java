@@ -55,15 +55,18 @@ public class Account {
             double falta = valor - saldo; //quanto sera retirado do cheque especial
             saldo -= valor; //vai ficar negativo
             chequeEspecial -= falta;
-            usoChequeEspecial = falta;
+            usoChequeEspecial += falta;
             System.out.printf("Você usou R$ %.2f do cheque especial.%n", falta);
         } else {
             // Caso 3: nem com cheque especial é possível
             System.out.println("Saldo insuficiente, mesmo com o cheque especial.");
             return;
         }
-         System.out.printf("Novo saldo: R$ %.2f\n" +
-                 "Quantidade restante do cheque especial: R$ %.2f", saldo, chequeEspecial);
+         System.out.printf(
+                 "Novo saldo: R$ %.2f%nQuantidade restante do cheque especial: R$ %.2f%n",
+                 saldo, chequeEspecial
+         );
+
      }
 
      public void pagarBoleto(double valor){

@@ -32,6 +32,34 @@ public class GastoRecorrente {
         this.categoria = transacoes.get(0).getCategoria();
     }
 
+    public String getDescricaoNormalizada() {
+        return descricaoNormalizada;
+    }
+
+    public BigDecimal getValorMedio() {
+        return valorMedio;
+    }
+
+    public LocalDate getPrimeiraOcorrencia() {
+        return primeiraOcorrencia;
+    }
+
+    public LocalDate getUltimaOcorrencia() {
+        return ultimaOcorrencia;
+    }
+
+    public int getFrequenciaMensal() {
+        return frequenciaMensal;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public List<Transacao> getTransacoes() {
+        return transacoes;
+    }
+
     @Override
     public String toString() {
         return "GastoRecorrente {" +
@@ -42,4 +70,6 @@ public class GastoRecorrente {
                 ", periodo=" + primeiraOcorrencia + " → " + ultimaOcorrencia +
                 '}';
     }
+
+
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aulas/Aula001/Aula001.iml" filepath="$PROJECT_DIR$/Aulas/Aula001/Aula001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aulas/Aula002/Aula002.iml" filepath="$PROJECT_DIR$/Aulas/Aula002/Aula002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aulas/Aula003/Aula003.iml" filepath="$PROJECT_DIR$/Aulas/Aula003/Aula003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aulas/Aula004/Aula004.iml" filepath="$PROJECT_DIR$/Aulas/Aula004/Aula004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aulas/Aula005/Aula005.iml" filepath="$PROJECT_DIR$/Aulas/Aula005/Aula005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aulas/Aula006/Aula006.iml" filepath="$PROJECT_DIR$/Aulas/Aula006/Aula006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp Riachuelo.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp Riachuelo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Ex001/Ex001.iml" filepath="$PROJECT_DIR$/Exercicios/Ex001/Ex001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Ex002/Ex002.iml" filepath="$PROJECT_DIR$/Exercicios/Ex002/Ex002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Lista003/Ex001/Ex2.iml" filepath="$PROJECT_DIR$/Exercicios/Lista003/Ex001/Ex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Lista003/Ex002/Ex3.iml" filepath="$PROJECT_DIR$/Exercicios/Lista003/Ex002/Ex3.iml" />
+    </modules>
+  </component>
+</project>

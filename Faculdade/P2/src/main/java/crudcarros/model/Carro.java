@@ -49,7 +49,6 @@ public class Carro {
         return preco;
     }
 
-
     public void setId(int id){
         this.id = id;
     }

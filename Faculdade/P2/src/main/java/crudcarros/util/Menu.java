@@ -2,7 +2,6 @@ package crudcarros.util;
 
 import crudcarros.model.Carro;
 import crudcarros.service.CarroService;
-
 import java.util.List;
 import java.util.Scanner;
 

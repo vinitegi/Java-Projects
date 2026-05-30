@@ -53,7 +53,7 @@ public class CarroService {
 
     public Carro atualizarCarro(int id, String modelo, String marca,
                                 int ano, String cor, double preco) {
-        buscarCarroPorId(id); // ve que existe
+        buscarCarroPorId(id);
 
         validarString(modelo, "Modelo");
         validarString(marca, "Marca");

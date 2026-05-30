@@ -1,5 +1,4 @@
 package crudcarros.app;
-
 import crudcarros.util.Menu;
 
 public class Main {

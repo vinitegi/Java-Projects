@@ -9,8 +9,8 @@ import java.time.OffsetDateTime;
 public class EmployeeEntity {
 
     private long id;
-    private String firstName;
-    private String lastName;
-    private OffsetDateTime dateOfBirth;
+    private String name;
     private BigDecimal salary;
+    private OffsetDateTime dateOfBirth;
+
 }

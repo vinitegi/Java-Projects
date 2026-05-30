@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "org.example"
+group = "br.com.dio"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -15,6 +15,7 @@ dependencies {
     implementation("org.flywaydb:flyway-mysql:10.12.0")
     implementation("net.datafaker:datafaker:2.2.2")
 
-    compileOnly("org.projectlombok:lombok:1.18.30")
-    annotationProcessor("org.projectlombok:lombok:1.18.30")
+    compileOnly("org.projectlombok:lombok:1.18.32")
+    annotationProcessor("org.projectlombok:lombok:1.18.32")
+
 }

@@ -60,7 +60,7 @@ public class SerializerProcessor {
         return prettify ?
                 json :
                 json.replaceAll(System.lineSeparator(), "")
-                .replaceAll(" ", "");
+                .replaceAll("    ", "");
 
     }
 

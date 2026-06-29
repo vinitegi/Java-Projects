@@ -12,7 +12,7 @@ public class ConnectionFactory {
                     "&characterEncoding=UTF-8";
 
     private static final String USUARIO = "root";
-    private static final String SENHA = "VALCARVILA132v!";
+    private static final String SENHA = "*********";
 
     private ConnectionFactory() {
     }
